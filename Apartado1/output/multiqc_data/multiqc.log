@@ -1,0 +1,4 @@
+[2025-04-22 12:05:57,807] multiqc.core.file_search                           [INFO   ]  Search path: /home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastqc_postrimming
+[2025-04-22 12:05:57,808] multiqc.core.file_search                           [INFO   ]  Search path: /home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastqc_pretrimming
+[2025-04-22 12:05:58,331] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 4 reports
+[2025-04-22 12:05:58,425] multiqc.plots.violin                               [WARNING]  Tried to make table/violin plot, but had no data. pconfig: {'namespace': 'FastQC', 'id': 'fastqc_top_overrepresented_sequences_table', 'title': 'FastQC: Top overrepresented sequences', 'col1_header': 'Overrepresented sequence', 'sort_rows': False}

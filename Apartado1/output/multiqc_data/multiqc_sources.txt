@@ -1,0 +1,5 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR479052.chr21_2	/home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastqc_postrimming/SRR479052.chr21_2_trimmed_fastqc.zip
+FastQC	all_sections	SRR479054.chr21_1	/home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastqc_postrimming/SRR479054.chr21_1_trimmed_fastqc.zip
+FastQC	all_sections	SRR479054.chr21_2	/home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastqc_postrimming/SRR479054.chr21_2_trimmed_fastqc.zip
+FastQC	all_sections	SRR479052.chr21_1	/home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastqc_postrimming/SRR479052.chr21_1_trimmed_fastqc.zip

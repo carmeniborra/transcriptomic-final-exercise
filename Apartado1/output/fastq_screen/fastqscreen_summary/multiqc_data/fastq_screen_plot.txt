@@ -1,0 +1,5 @@
+Sample	Human	Mouse	Rat	Adapters	Drosophila	Worm	Vectors	Multiple Genomes	No hits
+SRR479052.chr21_1_screen	12118.0	3.0	2.0	2.0	1.0	0.0	0.0	2952.0	262.0
+SRR479052.chr21_2_screen	11538.0	3.0	3.0	0.0	0.0	0.0	0.0	2770.0	1026.0
+SRR479054.chr21_1_screen	7805.0	4.0	1.0	0.0	0.0	0.0	1.0	1764.0	171.0
+SRR479054.chr21_2_screen	7452.0	0.0	4.0	0.0	0.0	1.0	0.0	1606.0	683.0

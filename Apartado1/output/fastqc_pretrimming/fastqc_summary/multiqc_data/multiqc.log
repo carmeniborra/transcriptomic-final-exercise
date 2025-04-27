@@ -1,0 +1,2 @@
+[2025-04-22 10:40:05,831] multiqc.core.file_search                           [INFO   ]  Search path: /home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastqc
+[2025-04-22 10:40:05,926] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 4 reports

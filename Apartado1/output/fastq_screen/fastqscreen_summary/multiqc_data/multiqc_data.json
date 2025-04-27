@@ -1,0 +1,551 @@
+{
+    "report_multiqc_command": "/home/vant/miniforge3/envs/transcriptomica/bin/multiqc fastq_screen/ -o fastq_screen/fastqscreen_summary",
+    "report_data_sources": {
+        "FastQ Screen": {
+            "all_sections": {
+                "SRR479054.chr21_1_screen": "/home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastq_screen/SRR479054.chr21_1_screen.txt",
+                "SRR479054.chr21_2_screen": "/home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastq_screen/SRR479054.chr21_2_screen.txt",
+                "SRR479052.chr21_2_screen": "/home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastq_screen/SRR479052.chr21_2_screen.txt",
+                "SRR479052.chr21_1_screen": "/home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastq_screen/SRR479052.chr21_1_screen.txt"
+            }
+        }
+    },
+    "report_general_stats_data": [],
+    "report_general_stats_headers": [],
+    "report_plot_data": {
+        "fastq_screen_plot": {
+            "id": "fastq_screen_plot",
+            "anchor": "fastq_screen_plot",
+            "plot_type": "bar plot",
+            "layout": {
+                "autosize": true,
+                "colorway": [
+                    "#7cb5ec",
+                    "#434348",
+                    "#90ed7d",
+                    "#f7a35c",
+                    "#8085e9",
+                    "#f15c80",
+                    "#e4d354",
+                    "#2b908f",
+                    "#f45b5b",
+                    "#91e8e1"
+                ],
+                "font": {
+                    "family": "'Lucida Grande', 'Open Sans', verdana, arial, sans-serif"
+                },
+                "height": 311,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "rgba(255, 255, 255, 0.8)",
+                    "font": {
+                        "color": "black"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "modebar": {
+                    "activecolor": "rgba(0, 0, 0, 1)",
+                    "bgcolor": "rgba(0, 0, 0, 0)",
+                    "color": "rgba(0, 0, 0, 0.5)"
+                },
+                "paper_bgcolor": "white",
+                "plot_bgcolor": "white",
+                "showlegend": true,
+                "title": {
+                    "font": {
+                        "size": 20
+                    },
+                    "text": "FastQ Screen: Mapped Reads",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "color": "rgba(0,0,0,0.3)",
+                    "gridcolor": "rgba(0,0,0,0.05)",
+                    "tickfont": {
+                        "color": "rgba(0,0,0,1)",
+                        "size": 10
+                    },
+                    "zerolinecolor": "rgba(0,0,0,0.05)",
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "plot_id": "fastq_screen_plot",
+                    "label": "1",
+                    "uid": "fastq_screen_plot",
+                    "dconfig": {
+                        "title": "FastQ Screen: Mapped Reads<br><sup>4 samples</sup>"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "FastQ Screen: Mapped Reads<br><sup>4 samples</sup>"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "Mapped reads"
+                            },
+                            "hoverformat": ",.2f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "minallowed": 0,
+                                "maxallowed": 15340.0
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": ""
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_samples": 4,
+                    "cats": [
+                        {
+                            "name": "Human",
+                            "color": "124,181,236",
+                            "data": [
+                                7452.0,
+                                7805.0,
+                                11538.0,
+                                12118.0
+                            ],
+                            "data_pct": [
+                                76.46213831315411,
+                                80.08413708187975,
+                                75.21512385919166,
+                                78.9960886571056
+                            ]
+                        },
+                        {
+                            "name": "Mouse",
+                            "color": "67,67,72",
+                            "data": [
+                                0.0,
+                                4.0,
+                                3.0,
+                                3.0
+                            ],
+                            "data_pct": [
+                                0.0,
+                                0.04104247896572953,
+                                0.01955671447196871,
+                                0.01955671447196871
+                            ]
+                        },
+                        {
+                            "name": "Rat",
+                            "color": "144,237,125",
+                            "data": [
+                                4.0,
+                                1.0,
+                                3.0,
+                                2.0
+                            ],
+                            "data_pct": [
+                                0.04104247896572953,
+                                0.010260619741432383,
+                                0.01955671447196871,
+                                0.01303780964797914
+                            ]
+                        },
+                        {
+                            "name": "Adapters",
+                            "color": "247,163,92",
+                            "data": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                2.0
+                            ],
+                            "data_pct": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.01303780964797914
+                            ]
+                        },
+                        {
+                            "name": "Drosophila",
+                            "color": "128,133,233",
+                            "data": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.0
+                            ],
+                            "data_pct": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                0.00651890482398957
+                            ]
+                        },
+                        {
+                            "name": "Worm",
+                            "color": "241,92,128",
+                            "data": [
+                                1.0,
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "data_pct": [
+                                0.010260619741432383,
+                                0.0,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "name": "Vectors",
+                            "color": "228,211,84",
+                            "data": [
+                                0.0,
+                                1.0,
+                                0.0,
+                                0.0
+                            ],
+                            "data_pct": [
+                                0.0,
+                                0.010260619741432383,
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "name": "Multiple Genomes",
+                            "color": "130,0,0",
+                            "data": [
+                                1606.0,
+                                1764.0,
+                                2770.0,
+                                2952.0
+                            ],
+                            "data_pct": [
+                                16.478555304740404,
+                                18.099733223886723,
+                                18.05736636245111,
+                                19.24380704041721
+                            ]
+                        },
+                        {
+                            "name": "No hits",
+                            "color": "204,204,204",
+                            "data": [
+                                683.0,
+                                171.0,
+                                1026.0,
+                                262.0
+                            ],
+                            "data_pct": [
+                                7.008003283398318,
+                                1.7545659757849374,
+                                6.688396349413299,
+                                1.7079530638852671
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "SRR479054.chr21_2_screen",
+                        "SRR479054.chr21_1_screen",
+                        "SRR479052.chr21_2_screen",
+                        "SRR479052.chr21_1_screen"
+                    ]
+                }
+            ],
+            "pconfig": {
+                "id": "fastq_screen_plot",
+                "title": "FastQ Screen: Mapped Reads",
+                "anchor": null,
+                "table_title": null,
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": false,
+                "cpswitch_counts_label": "Counts",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": "Mapped reads",
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null,
+                "xMinRange": null,
+                "yMinRange": null,
+                "x_minrange": null,
+                "y_minrange": null,
+                "xPlotBands": null,
+                "yPlotBands": null,
+                "xPlotLines": null,
+                "yPlotLines": null,
+                "x_bands": null,
+                "y_bands": null,
+                "x_lines": null,
+                "y_lines": null,
+                "stacking": "relative",
+                "hide_empty": null,
+                "hide_zero_cats": true,
+                "sort_samples": true,
+                "use_legend": null,
+                "suffix": null,
+                "lab_format": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": true,
+            "l_active": false,
+            "p_active": true,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "section_anchor": null,
+            "module_anchor": null
+        }
+    },
+    "report_creation_date": "2025-04-16, 22:07 CEST",
+    "config_analysis_dir": [
+        "fastq_screen/"
+    ],
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/home/vant/miniforge3/envs/transcriptomica/lib/python3.10/site-packages/multiqc",
+    "config_short_version": "1.28",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.28",
+    "config_output_dir": "/home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastq_screen/fastqscreen_summary",
+    "config_analysis_dir_abs": [
+        "/home/vant/Escritorio/transcritomica/transcriptomic-final-exercise/Apartado1/output/fastq_screen"
+    ],
+    "report_saved_raw_data": {
+        "multiqc_fastq_screen": {
+            "SRR479052.chr21_1_screen": {
+                "total_reads": 15340,
+                "Human counts": 15059.0,
+                "Human percentage": 98.17,
+                "Mouse counts": 2255.0,
+                "Mouse percentage": 14.7,
+                "Rat counts": 2421.0,
+                "Rat percentage": 15.78,
+                "Drosophila counts": 270.0,
+                "Drosophila percentage": 1.77,
+                "Worm counts": 208.0,
+                "Worm percentage": 1.36,
+                "Yeast counts": 295.0,
+                "Yeast percentage": 1.92,
+                "Arabidopsis counts": 318.0,
+                "Arabidopsis percentage": 2.08,
+                "Ecoli counts": 0.0,
+                "Ecoli percentage": 0.0,
+                "rRNA counts": 1582.0,
+                "rRNA percentage": 10.31,
+                "MT counts": 46.0,
+                "MT percentage": 0.30000000000000004,
+                "PhiX counts": 0.0,
+                "PhiX percentage": 0.0,
+                "Lambda counts": 0.0,
+                "Lambda percentage": 0.0,
+                "Vectors counts": 18.0,
+                "Vectors percentage": 0.12000000000000001,
+                "Adapters counts": 11.0,
+                "Adapters percentage": 0.07,
+                "No hits counts": 262,
+                "No hits percentage": 1.71
+            },
+            "SRR479052.chr21_2_screen": {
+                "total_reads": 15340,
+                "Human counts": 14305.0,
+                "Human percentage": 93.26,
+                "Mouse counts": 2064.0,
+                "Mouse percentage": 13.45,
+                "Rat counts": 2271.0,
+                "Rat percentage": 14.809999999999999,
+                "Drosophila counts": 283.0,
+                "Drosophila percentage": 1.8499999999999999,
+                "Worm counts": 208.0,
+                "Worm percentage": 1.36,
+                "Yeast counts": 289.0,
+                "Yeast percentage": 1.8800000000000001,
+                "Arabidopsis counts": 328.0,
+                "Arabidopsis percentage": 2.14,
+                "Ecoli counts": 0.0,
+                "Ecoli percentage": 0.0,
+                "rRNA counts": 1433.0,
+                "rRNA percentage": 9.34,
+                "MT counts": 55.0,
+                "MT percentage": 0.36,
+                "PhiX counts": 0.0,
+                "PhiX percentage": 0.0,
+                "Lambda counts": 0.0,
+                "Lambda percentage": 0.0,
+                "Vectors counts": 11.0,
+                "Vectors percentage": 0.06999999999999999,
+                "Adapters counts": 1.0,
+                "Adapters percentage": 0.01,
+                "No hits counts": 1026,
+                "No hits percentage": 6.69
+            },
+            "SRR479054.chr21_1_screen": {
+                "total_reads": 9746,
+                "Human counts": 9565.0,
+                "Human percentage": 98.14,
+                "Mouse counts": 1371.0,
+                "Mouse percentage": 14.06,
+                "Rat counts": 1468.0,
+                "Rat percentage": 15.059999999999999,
+                "Drosophila counts": 181.0,
+                "Drosophila percentage": 1.85,
+                "Worm counts": 139.0,
+                "Worm percentage": 1.4300000000000002,
+                "Yeast counts": 188.0,
+                "Yeast percentage": 1.93,
+                "Arabidopsis counts": 212.0,
+                "Arabidopsis percentage": 2.17,
+                "Ecoli counts": 0.0,
+                "Ecoli percentage": 0.0,
+                "rRNA counts": 920.0,
+                "rRNA percentage": 9.44,
+                "MT counts": 24.0,
+                "MT percentage": 0.25,
+                "PhiX counts": 0.0,
+                "PhiX percentage": 0.0,
+                "Lambda counts": 0.0,
+                "Lambda percentage": 0.0,
+                "Vectors counts": 15.0,
+                "Vectors percentage": 0.15,
+                "Adapters counts": 4.0,
+                "Adapters percentage": 0.04,
+                "No hits counts": 171,
+                "No hits percentage": 1.76
+            },
+            "SRR479054.chr21_2_screen": {
+                "total_reads": 9746,
+                "Human counts": 9056.0,
+                "Human percentage": 92.92999999999999,
+                "Mouse counts": 1185.0,
+                "Mouse percentage": 12.149999999999999,
+                "Rat counts": 1318.0,
+                "Rat percentage": 13.52,
+                "Drosophila counts": 183.0,
+                "Drosophila percentage": 1.8699999999999999,
+                "Worm counts": 150.0,
+                "Worm percentage": 1.54,
+                "Yeast counts": 195.0,
+                "Yeast percentage": 2.0,
+                "Arabidopsis counts": 211.0,
+                "Arabidopsis percentage": 2.1599999999999997,
+                "Ecoli counts": 0.0,
+                "Ecoli percentage": 0.0,
+                "rRNA counts": 821.0,
+                "rRNA percentage": 8.43,
+                "MT counts": 39.0,
+                "MT percentage": 0.4,
+                "PhiX counts": 0.0,
+                "PhiX percentage": 0.0,
+                "Lambda counts": 0.0,
+                "Lambda percentage": 0.0,
+                "Vectors counts": 7.0,
+                "Vectors percentage": 0.07,
+                "Adapters counts": 1.0,
+                "Adapters percentage": 0.01,
+                "No hits counts": 683,
+                "No hits percentage": 7.01
+            }
+        }
+    }
+}
