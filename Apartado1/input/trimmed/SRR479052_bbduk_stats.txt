@@ -1,0 +1,27 @@
+java -ea -Xmx10463m -Xms10463m -cp /home/vant/miniforge3/envs/transcriptomica/opt/bbmap-39.01-1/current/ jgi.BBDuk in1=../input/SRR479052.chr21_1.fastq in2=../input/SRR479052.chr21_2.fastq out1=../input/trimmed/SRR479052.chr21_1_trimmed.fastq out2=../input/trimmed/SRR479052.chr21_2_trimmed.fastq ref=../input/adapters.fa ktrim=r k=23 mink=11 hdist=1 tbo tpe qtrim=rl trimq=20 minlen=30 threads=4
+Executing jgi.BBDuk [in1=../input/SRR479052.chr21_1.fastq, in2=../input/SRR479052.chr21_2.fastq, out1=../input/trimmed/SRR479052.chr21_1_trimmed.fastq, out2=../input/trimmed/SRR479052.chr21_2_trimmed.fastq, ref=../input/adapters.fa, ktrim=r, k=23, mink=11, hdist=1, tbo, tpe, qtrim=rl, trimq=20, minlen=30, threads=4]
+Version 39.01
+
+Set threads to 4
+maskMiddle was disabled because useShortKmers=true
+0.022 seconds.
+Initial:
+Memory: max=10972m, total=10972m, free=10938m, used=34m
+
+Added 10191 kmers; time: 	0.024 seconds.
+Memory: max=10972m, total=10972m, free=10901m, used=71m
+
+Input is being processed as paired
+Started output streams:	0.004 seconds.
+Processing time:   		0.243 seconds.
+
+Input:                  	30680 reads 		3098680 bases.
+QTrimmed:               	15640 reads (50.98%) 	778456 bases (25.12%)
+KTrimmed:               	5274 reads (17.19%) 	114124 bases (3.68%)
+Trimmed by overlap:     	5438 reads (17.72%) 	33848 bases (1.09%)
+Total Removed:          	5678 reads (18.51%) 	926428 bases (29.90%)
+Result:                 	25002 reads (81.49%) 	2172252 bases (70.10%)
+
+Time:                         	0.273 seconds.
+Reads Processed:       30680 	112.31k reads/sec
+Bases Processed:       3098k 	11.34m bases/sec
